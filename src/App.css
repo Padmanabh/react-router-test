@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main-contanier{
+  margin-top: 10px;
+  height: auto;
+}
+.left{
+  padding:40px;
+  background-color: #ccc;
+  border-top: 1px solid #5e5e5f;
+  border-right: 1px solid #5e5e5f;
+  text-decoration: none;
+  font-weight: 500;
+  min-width: 300px;
+  min-height: 200px;
+  height: auto;
+}
+.left a {
+  color: black;
+  margin-bottom: 10px;
+}
+.main
+{
+  margin-top: 3vh;
+  margin-left: 1vh;
+}
+.photo
+{
+  width: 200px;
+  height: 200px;
+}
+.photoTitle{
+  font-size: 16px;
+  width: 180px;
+  text-overflow: ellipsis;
+  height: 30px;
+  overflow: hidden;  
+  white-space: nowrap;
 }
